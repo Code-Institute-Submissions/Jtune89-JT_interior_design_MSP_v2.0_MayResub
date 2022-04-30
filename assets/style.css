@@ -57,6 +57,14 @@ nav li:hover{
     background-color: rgb(103, 103, 103);
 }
 
+.livingroomcont1 {
+    margin:30px;
+    padding:30px;
+    font-size: 1.5em;
+    color: white;
+    background-color: rgb(103, 103, 103);
+}
+
   @media (max-width:1024px) {
     .frontpage {
       width:100%;
@@ -66,4 +74,31 @@ nav li:hover{
 
   footer{
       text-align: center;
+  }
+
+
+@media (max-width:1024px) {
+    .livingimg {
+        width:100%;
+      position: relative;
+    }
+  }
+  
+  .livingimg {
+      width:50%;
+  }
+
+  .boxer {
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+  
+  
+  .image {
+    flex-basis: 40%
+  }
+  
+  .text {
+    font-size: 5px;
   }
