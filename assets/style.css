@@ -7,7 +7,7 @@ body {
 nav ul {
     list-style: none;
     background-color: black;
-    text-align: right;
+    text-align: center;
     margin:0;
     padding:0;
 }
@@ -26,11 +26,13 @@ nav a{
     display: block;
 }
 
-nav a:hover{
+nav li:hover{
     font-weight: bold;
     font-size: 1.4em;
 }
 
-#nav-logo{
-    
+.logo-image img{
+    width: 200px;
+    height: 75px;
+    overflow: hidden;
 }
