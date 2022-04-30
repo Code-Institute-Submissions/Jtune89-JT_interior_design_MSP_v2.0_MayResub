@@ -48,8 +48,22 @@ nav li:hover{
     background-color: rgb(103, 103, 103);
 }
 
+.livingroomcont {
+    margin:30px;
+    padding:30px;
+    font-size: 1.5em;
+    text-align: center;
+    color: white;
+    background-color: rgb(103, 103, 103);
+}
+
   @media (max-width:1024px) {
     .frontpage {
       width:100%;
       position: relative;
     }
+  }
+
+  footer{
+      text-align: center;
+  }
