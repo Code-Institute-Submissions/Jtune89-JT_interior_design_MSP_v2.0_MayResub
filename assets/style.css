@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+
 }
 
 nav ul {
@@ -36,3 +37,19 @@ nav li:hover{
     height: 75px;
     overflow: hidden;
 }
+
+
+.container {
+    margin:30px;
+    padding:30px;
+    font-size: 1.5em;
+    text-align: center;
+    color: white;
+    background-color: rgb(103, 103, 103);
+}
+
+  @media (max-width:1024px) {
+    .frontpage {
+      width:100%;
+      position: relative;
+    }
